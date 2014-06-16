@@ -1,0 +1,36 @@
+:host {
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+:host img {
+  margin: 0;
+  padding: 0;
+}
+
+
+:host .potato-wrapper {
+  height: 310px;
+  position: relative;
+  overflow: hidden;
+}
+
+:host .potato {
+  position: absolute;
+  height: 310px;
+  width: 100%;
+  top: 0;
+  left: 0;
+
+  background-image: url("images/potato-overlay.png");
+}
+
+:host img {
+  position: absolute;
+  top: 65px;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
